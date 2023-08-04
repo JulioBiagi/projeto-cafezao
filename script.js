@@ -1,0 +1,2 @@
+// getElementById()
+document.getElementsByClassName('.content')

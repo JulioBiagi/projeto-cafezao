@@ -1,0 +1,110 @@
+.container {
+  display: flex;
+  width: 100%;
+  gap: var(--gap);
+}
+.container-1 {
+  height: 100vh;
+  width: calc(100vw - var(--gap + 1px));
+  display: flex;
+  align-items: center;
+}
+
+.content-1 {
+  width: 50%;
+  height: 70vh;
+  background-image: url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2020/12/b960fb_10e0efd5f750438ca4a0e2095183c398mv2.jpg?w=1920&ssl=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content-1 h1 {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.content-2 {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.title-container {
+  width: calc(50% - var(--gap));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: #ffffff;
+  text-align: center;
+  height: fit-content;
+  font-size: 32px;
+}
+
+.img-1 {
+  background-image: url("https://images.unsplash.com/photo-1618105965240-9aa565e73a0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-2 {
+  background-image: url("https://images.unsplash.com/photo-1598198192305-46b0805890d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-3 {
+  background-image: url("https://media.istockphoto.com/id/1146863489/photo/dry-green-coffee-beans-in-sack-of-rough-canvas-under-the-direct-sunlight.jpg?s=612x612&w=0&k=20&c=CyY2X3KvyvHKxEuwP1Mlocc7x9kekqhzwJyQPb9VIEs=");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-4 {
+  background-image: url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2020/12/b960fb_b78aea8da2c8499091c6ba0681800106mv2.jpg?resize=1000%2C1000&ssl=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  padding: 8px 32px;
+  box-shadow: 0px 8px 13px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+.header-title {
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 2px;
+}
+.button {
+  padding: 8px 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
